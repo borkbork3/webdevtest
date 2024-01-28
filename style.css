@@ -1,0 +1,40 @@
+/* basic styles
+background-color
+color (text color)
+border-color
+
+Fonts:
+family
+size
+weight (how bold)
+line-height (space between lines of text)
+text-align (left, center, right)
+*/
+
+#backdrop { /* image */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+}
+
+.headers {
+    position: relative;
+    color: white;
+    font-family: Luminari;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.4em;
+}
+
+h3 {
+    font-size: 0.9em;
+}
